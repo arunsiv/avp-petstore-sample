@@ -127,10 +127,10 @@ function addResourceEntities(entities, action, pathParams) {
             "storeId": {
               "string": pathParams.storeId
             },
-            "owner" : { // Hardcoding the owner to abhi, this is for demonestration purposes
+            "owner" : { // Hardcoding the owner <>, this is for demonestration purposes
                 "entityIdentifier": {
                        "entityType": "MyApplication::User",
-                       "entityId": "abhi"
+                       "entityId": "arun"
                 }                     
             }
       }
